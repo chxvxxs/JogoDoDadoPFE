@@ -53,6 +53,7 @@ const DiceGame = () => {
     }
     setWinner(gameWinner);
     setIsGameOver(true);
+    determineGameWinner.style.color="#000";
   };
 
   const resetGame = () => {
