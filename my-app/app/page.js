@@ -109,7 +109,7 @@ const DiceGame = () => {
 
       <Dialog open={isGameOver} onOpenChange={resetGame}>
         <DialogContent className="bg-white/10 backdrop-blur-lg p-8 rounded-2xl shadow-2xl border border-white/10 text-center">
-          <DialogTitle className="text-4xl font-bold text-black bg-clip-text bg-gradient-to-r from-pink-400 to-yellow-400">
+          <DialogTitle className="text-4xl text-black bg-clip-text bg-gradient-to-r from-pink-400 to-yellow-400">
             {winner}
           </DialogTitle>
           <Button
